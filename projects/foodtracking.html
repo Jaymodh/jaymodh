@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Page-->
+    <title>Jay Modh</title>
+    <!---->
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!---->
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <!---->
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="../assets/plugins/aos/aos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/plugins/magnific-popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!---->
+</head>
+
+<body class="new-project" data-spy="scroll" data-target=".navbar" data-offset="200">
+
+    <div class="work-menu">
+        <div class="container container-max">
+            <a href="../home.html#work" class="back-to-work">
+                <i class="material-icons">keyboard_backspace</i> work
+            </a>
+        </div>
+    </div>
+
+    <!-- <div class="opening-image parallax-window" data-parallax="scroll" data-speed="0.65"
+        data-image-src="../assets/images/foodtracking_img.jpg">
+    </div> -->
+
+    <div class="container container-custom">
+        <div class="work-img watch-img work-img-project">
+            <img src="../assets/images/apple-watch.png" class="apple-watch" data-aos="slide-up" data-aos-duration="1000"
+                data-aos-easing="ease-out-cubic" data-aos-once="true">
+        </div>
+
+        <div class="project-title work-text">
+            <h1 class="foodtracking">Wearable Food Tracking</h1>
+            <h6>UX Research <span>.</span> UI Design <span>.</span> Course Project <span>.</span> 2019
+        </div>
+
+        <h6>Problem Space</h6>
+        <p class="mg-bottom-100">Food tracking is a tedious and time consuming process. How might we <mark>redesign the
+                food tracking experience for health conscious users that helps them understand their bodies beyond
+                metrics and numbers?</mark>
+        </p>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <h6 class="variant">My Role</h6>
+                <p class="variant"><b>UX Research</b> - Designed Survey, Performed Competitor Analysis, Conducted
+                    Semi-Structured Interviews, Conducted Affinity Mapping, Designed User Personas
+                    <span class="myrole_food"></span><b>UI Design</b> - Designed StoryBoard, Designed High-Fidelity
+                    Prototype (Final Iteration)
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h6 class="variant">Duration</h6>
+                <p class="variant_food">4 months - Aug ‘19 to Nov ’19
+                </p>
+                <h6 class="variant">Team Size</h6>
+                <p class="variant">4 students
+                </p>
+            </div>
+        </div>
+
+        <p class="section-divider">
+            ...
+        </p>
+
+        <h6>User Research</h6>
+        <h6><span>Designing Survey</span></h6>
+        <p>We started with the hypothesis that people who regularly log meals find the process time consuming and
+            tedious which perhaps leads to them discontinuing the use of the application after a period of time. To
+            help us validate our hypothesis,
+            we needed to conduct research to determine if users felt the same way about it. In order to do this, we
+            designed a survey.</p>
+
+    </div>
+
+    <div class="container">
+        <div class="survey-img">
+            <img src="../assets/images/food-tracking-survey.jpg">
+        </div>
+    </div>
+
+    <div class="container container-custom">
+        <h6><span>Competitor Analysis</span></h6>
+        <p>Through the survey we identified the top apps used for food tracking. I installed these apps to
+            understand their approach to food tracking and the experience that they provide. I also wanted to know
+            if there was anything inherent in these
+            apps that was causing the users to become obsessive about calorie count instead of focusing on
+            developing an overall healthy eating habit. After using these apps only for a few days, I was able to
+            <mark>identify the reasons could potentially be leading to calorie-obsession among health concious
+                users.</mark>
+        </p>
+        <div class="mfp-image">
+            <img src="../assets/images/food-tracking-mfp.jpg">
+        </div>
+
+
+        <h6><span class="sub-title">Problem 01: Calorie counter</span></h6>
+        <p>We identified that even though these apps were different in many apsects, their method to display the
+            calorie goal was mostly the same - in the form of an equation. <mark>Keeping a continuous watch on these
+                numbers throughout the day is where we
+                believe the issue emerges from.</mark> Lifesum used a different approach in terms of presenting this
+            information, however, it still relied on calorie count. Our goal was to <mark>represent this information
+                visually where the focus is
+                shifted from the calorie count to overall goals</mark>, similar to the way Google fit does it with
+            their fitness tracker.
+        </p>
+        <div class="visual-tracker-image">
+            <img src="../assets/images/food-visual-tracker.jpg">
+        </div>
+
+        <h6><span class="sub-title">Problem 02: Up-front Calorie Display</span></h6>
+        <p>Another issue we identified is that since the data on these platform is crowd-sourced, the accuracy drops
+            drastically. For instance, we tried logging ‘scrambled eggs’ and the calorie count of the suggestions
+            ranged from as low as 47 to as
+            high as 365. <mark>Since the calorific values are displayed upfront, the user might be more inclined to
+                select food-item with lesser/ more calories than what they actually ate (depending on their goal to
+                reduce/ gain weight)</mark> thus
+            yielding erronous results over a period of time. Analyzing the issue further closely, we realized that
+            logging is a two step process. In the existing solutions, after the search results show up, the user
+            first looks at the calories of
+            search items and then logs one of the search items. Our goal is to reverse the order of steps, where the
+            user first logs the meal and then the nutrition information is displayed.
+        </p>
+        <div class="steps-image">
+            <img src="../assets/images/food-steps.jpg">
+        </div>
+
+        <h6><span>Interviewing Users</span></h6>
+        <p>Through interviews, we wanted to <mark>understand the experience of users who have been using tracking
+                apps or have used them in the past.</mark> We conducted 9 interviews with participants from ages
+            ranging from 20 to 30, from which 7 participants
+            were female and 2 were male. Each interview was 20 to 30 minutes long and was semi-structured in nature.
+            A list of sample questions has ben included below.
+        </p>
+        <ul class="questions food-questions">
+            <li>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="question-title">
+                            <p data-name="01">What motivated you to start logging your meals?</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="question-title">
+                            <p data-name="02">What did an average day look like while using the food tracking app?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="question-title">
+                            <p data-name="03">What issues, if any, did you face while using the food tracking app?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="question-title">
+                            <p data-name="04">What features do you think would have helped you meet your goals in a
+                                better way?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="question-title">
+                            <p data-name="05">If you have stopped using the app, what was your reason?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="question-title">
+                            <p data-name="06">Do you consider the app to be helpful in meeting your goals?</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <p class="section-divider">
+            ...
+        </p>
+
+        <h6>Analysis of Research Findings</h6>
+        <h6><span>Affinity Mapping</span></h6>
+        <p class="marginbottom">Analysing our research findings through semi-structured interviews, we conducted an
+            affinity mapping session that allowed us to identify the motivation and pain-points of users who log
+            their meals.</p class="marginbottom">
+        <a class="popup-link" href="../assets/images/food-affinity.jpg">
+            <div class="affinity">
+                <img src="../assets/images/food-affinity.jpg">
+            </div>
+        </a>
+
+        <h6 class="margin-top"><span>Personas</span></h6 class="margin-top">
+        <p>Translating our findings from the affinity mapping to our target users, <mark>we designed personas whose
+                goals, frustrations and other traits were representative of the user group</mark> that we the
+            conducted research with.
+        </p>
+        <div class="row parent-persona">
+            <div class="col-lg-6">
+                <a href="../assets/images/food_persona_1.jpg">
+                    <div class="idea">
+                        <img class="persona" src="../assets/images/food_persona_1.jpg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a href="../assets/images/food_persona_2.jpg">
+                    <div class="idea">
+                        <img class="persona" src="../assets/images/food_persona_2.jpg">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <p class="section-divider">
+            ...
+        </p>
+
+        <h6>Design</h6>
+        <p>Moving to the design stage, <mark>we wanted to focus on not only on making the process of meal logging
+                quick and easy but also introducing novelty to the experience that is fun and engaging and can
+                motivate the users to continue logging meals over
+                a longer period of time.</mark> This is why we chose the apple watch as the platform for our design.
+            Health and fitness monitoring apps have become an important aspect of Apple watch. Taking this a step
+            ahead, through our design we decided
+            that we wanted to introduce food tracking for wearables.</p>
+        <h6><span>Story Board</span></h6>
+        <p class="storyboard-text">In order to visualize this concept, I drew a six panel storyboard which depicts a
+            user using the food tracking app on his smart watch to log his meal</p>
+        <a class="popup-link" href="../assets/images/food_storyboard.jpg">
+            <div class=" food-storyboard ">
+                <img src="../assets/images/food_storyboard.jpg">
+            </div>
+        </a>
+
+        <h6><span>Wireframes</span></h6>
+        <p>Once we finalized the story we want to tell, we got into designing the app itself. We started by
+            designing the wireframes.These were great for communicating the higher level aspects of our design and
+            getting early feedback.</p>
+        <a class="popup-link" href="../assets/images/food_wireframe.jpg">
+            <div class="food-wireframe">
+                <img src="../assets/images/food_wireframe.jpg">
+            </div>
+        </a>
+
+        <h6><span>High Fidelity Prototype</span></h6>
+        <p>
+            Based on the feedback that we recieved from testing the wireframes, I designed the final iteration for
+            the food tracking watch app.
+            <br><br>Try logging in 2 slices of pepperoni pizza by interacting with the prototype below!
+        </p>
+        <div class="food-prototype">
+            <iframe style="border: none;"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FF9pZYTgHULtPoKE6Z2I5u9%2FFood-Tracking-Apple-Watch%3Fnode-id%3D4%253A2%26viewport%3D-1%252C234%252C0.3374559283256531%26scaling%3Dmin-zoom"
+                allowfullscreen></iframe class="food-prototype">
+        </div>
+
+        <p class="section-divider">
+            ...
+        </p>
+
+        <h6>Take Away</h6>
+        <p>Working on this project, I learned a lot of things. There were a lot of challenges on the way, designing
+            for smart watch with very limited screen area being one of the most challenging part. I believe we tried
+            our best
+            in coming with the solution to tackle this problem. This smart-watch app is by no means a substitute to
+            existing
+            mobile counterparts. In fact, it is suppose to complement the existing mobile app solutions. I believe
+            that our design, that brings food-tracking from a user's pocket to their wrist, advances the use of
+            technology in healthcare industry.</p>
+
+    </div>
+
+    <div class="container container-max ">
+        <a href="../home.html#work " class="back-to-work ">
+            <i class="material-icons ">keyboard_backspace</i> work
+        </a>
+    </div>
+
+    <!--Javascript-->
+    <script src="../assets/plugins/aos/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "></script>
+    <script src="../assets/plugins/parallax/parallax.min.js "></script>
+    <script src="../assets/plugins/magnific-popup/dist/jquery.magnific-popup.min.js "></script>
+    <script src="../assets/js/main.js "></script>
+    <script>
+        AOS.init();
+    </script>
+    <!---->
+</body>
+
+</html>
